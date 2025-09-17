@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Qamar - Basic Unisex T-Shirt </title>
+    <title>Basic Unisex T-Shirt - Qamar</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/product-page.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">Qamar</div>
+        <a href="index.html" class="logo">Qamar</a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -30,24 +30,26 @@
                 A versatile and comfortable t-shirt that's a staple for any wardrobe. Made from 100% premium cotton, it's soft and breathable.
             </p>
 
-            <form action="#" method="post">
-                <div class="options-group">
-                    <h4>Color:</h4>
-                    <label><input type="radio" name="color" value="white"> White</label>
-                    <label><input type="radio" name="color" value="black"> Black</label>
-                    <label><input type="radio" name="color" value="gray"> Gray</label>
+            <div class="options-group">
+                <h4>Color:</h4>
+                <div class="radio-buttons">
+                    <label><input type="radio" name="color" value="white"><span class="color-swatch white" title="White"></span></label>
+                    <label><input type="radio" name="color" value="black"><span class="color-swatch black" title="Black"></span></label>
+                    <label><input type="radio" name="color" value="gray"><span class="color-swatch gray" title="Gray"></span></label>
                 </div>
+            </div>
 
-                <div class="options-group">
-                    <h4>Size:</h4>
-                    <label><input type="radio" name="size" value="s"> S</label>
-                    <label><input type="radio" name="size" value="m"> M</label>
-                    <label><input type="radio" name="size" value="l"> L</label>
-                    <label><input type="radio" name="size" value="xl"> XL</label>
+            <div class="options-group">
+                <h4>Size:</h4>
+                <div class="radio-buttons">
+                    <label><input type="radio" name="size" value="s"><span class="size-box">S</span></label>
+                    <label><input type="radio" name="size" value="m"><span class="size-box">M</span></label>
+                    <label><input type="radio" name="size" value="l"><span class="size-box">L</span></label>
+                    <label><input type="radio" name="size" value="xl"><span class="size-box">XL</span></label>
                 </div>
-                
-                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
-            </form>
+            </div>
+            
+            <button type="button" class="add-to-cart-btn">Add to Cart</button>
         </div>
     </main>
 
